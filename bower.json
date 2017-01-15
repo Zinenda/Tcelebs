@@ -1,0 +1,27 @@
+{
+  "name": "TCelebs",
+  "authors": [
+    "Ivo Zinenda <izinenda@gmail.com>"
+  ],
+  "description": "Tetes Celebraties Blog",
+  "main": "",
+  "keywords": [
+    "Noticias",
+    "Biffs"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "_bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "^0.97.8",
+    "font-awesome": "fontawesome#^4.7.0"
+  }
+}

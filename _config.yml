@@ -1,0 +1,24 @@
+title: TCELEBS
+email: izinenda@outlook.com
+description: Tete's Celebraties
+twitter_username: Imaz_3g
+github_username:  Zinenda
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-minifier
+  - jekyll-paginate
+
+sass:
+  sass_dir: assets/_scss
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+whitelist:
+  - jekyll-minifier
