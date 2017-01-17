@@ -4,8 +4,27 @@ description: Tete's Celebraties
 twitter_username: Imaz_3g
 github_username:  Zinenda
 
-# Build settings
+# Build Settings
 markdown: kramdown
+paginate: 9
+paginate_path: /page:num/
+permalink: pretty
+
+
+# forestry.io
+defaults:
+    -
+        scope:
+            path: ""
+            type: posts
+        values:
+            title:
+            image: ""
+            author: ""
+            categories: []
+            tags: []
+            fontes: ""
+
 gems:
   - jekyll-seo-tag
   - jekyll-feed
@@ -22,3 +41,9 @@ exclude:
 
 whitelist:
   - jekyll-minifier
+
+#Google Analytics
+ga: UA-XXXXX-X
+
+image: /assets/img/brand/orange.svg
+logo: /assets/img/brand/red.svg

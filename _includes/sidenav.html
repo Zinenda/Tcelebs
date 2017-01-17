@@ -1,0 +1,52 @@
+<ul id="sidenav" class="side-nav fixed">
+    <!-- images -->
+    {% if page.title == "Inicio" %}
+        <img src="{{ site.image }}" alt="Logotipo" class="center">
+    {% endif %}
+    
+    {% if page.title == "Noticias" %}
+        <img src="/assets/img/brand/blue.svg" alt="Logotipo" class="center"></li>
+    {% endif %}
+
+    {% if page.title == "Biffs" %}
+        <img src="/assets/img/brand/red.svg" alt="Logotipo" class="center">
+    {% endif %}
+
+    {% if page.title == "Lançamentos" %}
+        <img src="/assets/img/brand/green.svg" alt="Logotipo" class="center">
+    {% endif %}
+
+    {% if page.title == "Biografias" %}
+        <img src="/assets/img/brand/cyan.svg" alt="Logotipo" class="center">
+    {% endif %}
+    <!-- links -->
+    {% if page.title == "Inicio" %}
+        <li class="active"><a href="/" title="Página Inicial">Página Inicial</a></li>
+        {% else %}
+            <li><a href="/" title="Página Inicial">Página Inicial</a></li>
+    {% endif %}
+    
+    {% if page.title == "Noticias" %}
+        <li class="active"><a href="/noticias/" title="Noticias">Noticias</a></li>
+        {% else %}
+            <li><a href="/noticias/" title="Noticias">Noticias</a></li>
+    {% endif %}
+
+    {% if page.title == "Biffs" %}
+        <li class="active"><a href="/biffs/" title="Biffs">Biffs</a></li>
+        {% else %}
+            <li><a href="/biffs/" title="Biffs">Biffs</a></li>
+    {% endif %}
+
+    {% if page.title == "Lançamentos" %}
+        <li class="active"><a href="/lancamentos/" title="Lançamentos">Lançamentos</a></li>
+        {% else %}
+            <li><a href="/lancamentos/" title="Lançamentos">Lançamentos</a></li>
+    {% endif %}
+
+    {% if page.title == "Biografias" %}
+        <li class="active"><a href="/biografias/" title="Biografias">Biografias</a></li>
+        {% else %}
+            <li><a href="/biografias/" title="Biografias">Biografias</a></li>
+    {% endif %}
+</ul>

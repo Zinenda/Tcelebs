@@ -1,0 +1,9 @@
+<header>
+    {% for post in site.posts limit: 1 %}
+        <img src="{{ post.image }}" alt="{{ post.title }}">
+        <div class="page-title">
+            <a href="{{ post.url }}" title="{{ post.title }}"><h1>{{ post.title }}</h1></a>
+            <a href="{{ post.url }}" title="{{ post.title }}" class="btn-large">Leia Mais</a>
+        </div>
+    {% endfor %}
+</header>
