@@ -30,29 +30,17 @@
 
     <!-- Color the status bar on mobile devices -->
     <meta name="theme-color" content="#f39c12">
+    <script>
+        {% include loadcss.js %}
+    </script>
+    <script id="loadcss">
+        loadCSS("/assets/css/main.css", document.getElementById("loadcss"));
+    </script>
+    <noscript>
+        <link rel="stylesheet" href="/assets/css/main.css">
+    </noscript>
 
-    <link rel="stylesheet" href="/assets/css/main.css" media="screen">
+    {% include navbar-backgrouds.html %}
 
-    <style>
-        {% if page.title == "Noticias" %}
-            nav .nav-wrapper {
-                background: #34495e;
-            }
-        {% endif %}
-        {% if page.title == "Biffs" %}
-            nav .nav-wrapper {
-                background: #e63b16;
-            }
-        {% endif %}
-        {% if page.title == "Lançamentos" %}
-            nav .nav-wrapper {
-                background: #16a085;
-            }
-        {% endif %}
-        {% if page.title == "Biografias" %}
-            nav .nav-wrapper {
-                background: #006064;
-            }
-        {% endif %}
-    </style>
+    {% include categories-bg.html %}
 </head>
