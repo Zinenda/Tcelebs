@@ -1,31 +1,35 @@
-    {% if page.title == "Noticias" %}
-        <style>
-            nav .nav-wrapper {
-                background: #34495e;
-            }
-        </style>    
-    {% endif %}
+{% if page.title == "Noticias" %}
+    <style>
+        nav .nav-wrapper,
+        .btn-floating {
+            background: #34495e;
+        }
+    </style>    
+{% endif %}
 
-    {% if page.title == "Biffs" %}
-        <style>
-            nav .nav-wrapper {
-                background: #e63b16;
-            }
-        </style>
-    {% endif %}
+{% if page.title == "Biffs" %}
+    <style>
+        nav .nav-wrapper,
+        .btn-floating {
+            background: #e63b16;
+        }
+    </style>
+{% endif %}
 
-    {% if page.title == "Lançamentos" %}
-        <style>
-            nav .nav-wrapper {
-                background: #16a085;
-            }
-        </style>
-    {% endif %}
+{% if page.title == "Lançamentos" %}
+    <style>
+        nav .nav-wrapper,
+        .btn-floating {
+            background: #16a085;
+        }
+    </style>
+{% endif %}
 
-    {% if page.title == "Biografias" %}
-        <style>
-            nav .nav-wrapper {
-                background: #006064;
-            }
-        </style>
-    {% endif %}
+{% if page.title == "Biografias" %}
+    <style>
+        nav .nav-wrapper,
+        .btn-floating {
+            background: #006064;
+        }
+    </style>
+{% endif %}
