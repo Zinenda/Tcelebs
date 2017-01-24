@@ -1,0 +1,27 @@
+{
+  "name": "tcelebs",
+  "version": "1.0.0",
+  "description": "blog de novidades sobre celebridades de tete",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zinenda/tcelebs.git"
+  },
+  "keywords": [
+    "noticias",
+    "biffs",
+    "lancamentos"
+  ],
+  "author": "ivo zinenda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zinenda/tcelebs/issues"
+  },
+  "homepage": "https://github.com/Zinenda/tcelebs#readme",
+  "dependencies": {
+    "surge": "^0.18.0"
+  }
+}
