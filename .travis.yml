@@ -3,7 +3,7 @@ node_js:
     - "7.3.0"
 
 before_deploy:
-    - bundle install 
+    - bundle install
     - bundle exec jekyll build
 
 deploy: 
