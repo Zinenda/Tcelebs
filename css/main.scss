@@ -65,6 +65,28 @@ a {
   }
 }
 
+header {
+  .page-header {
+    padding: 150px 0;
+    background: #fff;
+    margin-top: -2px;
+
+    &.diagonal {
+      -webkit-transform: skewY(-$section-rotation);
+      -moz-transform: skewY(-$section-rotation);
+      -ms-transform: skewY(-$section-rotation);
+      transform: skewY(-$section-rotation);
+
+      > div {
+        -webkit-transform: skewY($section-rotation);
+        -moz-transform: skewY($section-rotation);
+        -ms-transform: skewY($section-rotation);
+        transform: skewY($section-rotation);
+      }
+    }
+  }
+}
+
 article {
   p {
     text-align: justify;

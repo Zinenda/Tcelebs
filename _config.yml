@@ -32,13 +32,13 @@ gems:
   - jekyll-paginate
 
 sass:
-  sass_dir: assets/_scss
+  sass_dir: _scss
   style: compressed
 
 exclude:
   - Gemfile
   - Gemfile.lock
-
+  - vendor
 whitelist:
   - jekyll-minifier
 

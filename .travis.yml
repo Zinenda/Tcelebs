@@ -1,6 +1,5 @@
 language: node_js
 node_js:
     - "7.3.0"
-
-after_success: 
-    - surge --project ./_site --domain https://tcelebs.surge.sh
+deploy: 
+    provider: 
