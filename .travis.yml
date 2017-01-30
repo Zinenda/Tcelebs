@@ -2,10 +2,6 @@ language: node_js
 node_js:
     - "7.3.0"
 
-before_deploy:
-    - bundle install
-    - bundle exec jekyll build
-
 deploy: 
     provider: surge
     project: ./_site

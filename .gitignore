@@ -61,7 +61,6 @@ test/
 *.sublime-projectcompletions
 
 bower_components
-_site/
 
 # Output folders
 dist
